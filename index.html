@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background-color: 
+  hsl(218, 28%, 15%);
+}
+html {
+  height: -webkit-fill-available;
+}
+  @media only screen and (min-width: 300px, max-width: 600px) {
+   
+      
+
+    
+    .cytatmobile {
+      font-size: 8px;
+      
+    }
+    .fourth {
+     height: 100%;;
+    background-color: hsl(218, 28%, 13%);
+    }
+  }
+  
+ 
+
+  
+  .main {
+   
+    height: 69vh; 
+    background-color: hsl(218, 28%, 15%);
+  }
+  .navbar-brand {
+    padding: 30px;
+  }
+  .nav-link {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  .nav-link:hover {
+    font-weight:bold;
+    color:white;
+  }
+  .navbar-nav {
+    padding: 30px;
+  }
+  .intro {
+    display: block;
+    margin: auto;
+  }
+  .second {
+
+    height: 55vh;
+    background-color: hsl(218, 28%, 15%);
+    background-image:url('images/bg-curvy-desktop.svg');
+    margin: auto;
+    background-size: cover;
+   
+
+   
+    
+    
+
+  }
+ 
+  .cytatmobile {
+    font-size: 13px;
+    
+  }
+  .third {
+    height: 220vh;
+    background-color: hsl(218, 28%, 13%);
+
+   
+
+  }
+  .fourth {
+    height: 104vh;
+    background-color: hsl(216, 53%, 9%);
+  }
+
+  h1 {
+    color:white;
+    text-align: center;
+     font-family: 'Raleway', sans-serif;
+     
+  }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+     .text1  {
+       text-align: center;
+      color:white;
+      margin-top: 60px;
+      
+     
+    }
+    .btn {
+     
+      border: 1px solid 
+      color:white;
+      border-radius: 30px;
+      background-image: linear-gradient(to left,#339ECC,#81D9D4 );
+      color:white;
+      width: 225px;
+      height: 47px;
+      
+    }
+    .text2 {
+      text-align: center;
+    }
+    .cytat {
+      height: 20vh;
+      background-color: hsl(219, 30%, 18%);
+      width: 40vh;
+      border: 1px solid;
+      border-radius: 8px;
+      
+      
+
+    }
+     .cytat2 {
+      height: 20vh;
+      background-color: hsl(219, 30%, 18%);
+      width: 40vh;
+      border: 1px solid;
+      border-radius: 8px;
+      
+      
+      
+
+    }
+    .jumbotron {
+      height: 50%;
+      
+      
+    }
+    
+  .profile1 {
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+  }
+  .profile2 {
+    height: 40px;
+    position:absolute;
+    bottom: 10px;
+    
+  
+
+  }
+  .none {
+    visibility:hidden;
+  }
+ 
+  </style>
+ 
+
+</head>
+<body>
+
+
+<section class="main">
+<nav class="navbar  navbar-expand-sm ">
+  
+
+
+
+  <a class="navbar-brand" href="#">
+    
+      <img src="images/logo.svg" alt="Logo">
+
+  </a>
+  
+    <nav class="navbar-nav ml-auto">
+      <a class="nav-link mr-4" href="#">Features</a>
+      <a class="nav-link mr-4" href="#">Team</a>
+      <a class="nav-link mr-4" href="#a">Sign In</a>
+
+     
+    </nav>
+  
+</nav>
+
+<div class="container">
+  <div class="col-lg-12 col-md-12 col-sm-3 mb-5 mb-lg-0">
+
+
+<img class="img-fluid intro" src="images/illustration-intro.png">
+
+<span style="padding:5px;"><h1><b>All your files in one secure location,</span> <p>accessible anywhere.</h1></b></h1></p>
+
+<p class="text1"><span>
+Fylo stores all your most important files in one secure location.</span> <p style="margin-top:14px;" class="text1"> Access them wherever
+you need, share and collaborate with</p> <p style="margin-top: 14px;" class="text1">friends family, and co-workers.
+</p></p>
+
+
+
+</div>
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <button class="btn btn-md">Get started</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+  <div class="col-lg-6">
+
+    
+
+
+      <img style="padding-top: 150px; padding-left: 200px;" src="images/icon-access-anywhere.svg">
+      
+
+
+
+
+<h2 style="color:white; font-family: 'Raleway', sans-serif; padding-top: 10px; text-align: center;"><b>Access your files, anywhere</h2></b>
+
+ <span><p class="text2" style="color:white;">
+The ability to use a smartphone, tablet, or computer </span> <p class="text2" style="color:white; padding-bottom: 10px;">to access your account means your
+files follow you</p> <p class="text2" style="color:white;">everywhere.</p>
+ </p>
+
+
+</div>
+
+
+<div class="col-lg-6">
+  <img style="padding-top: 150px; padding-left: 200px;" src="images/icon-security.svg">
+  <h2 style="color:white; font-family: 'Raleway', sans-serif; padding-top: 10px; text-align: center;"><b>Security you can trust</h2></b>
+
+<span>
+  <p class="text2" style="color:white;">
+    2-factor authentication and user-controlled encryption are
+</span>
+<p class="text2" style="color:white; padding-bottom: 10px;">just a couple of the security
+features we allow to help</p>
+<p class="text2" style="color:white;">secure your files.</p>
+</p>
+
+
+</div></div></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+
+
+<img style="padding-top: 150px; padding-left: 200px;" src="images/icon-collaboration.svg">
+
+<h2 style="color:white; font-family: 'Raleway', sans-serif; padding-top: 10px; text-align: center;"><b>Real-time collaboration</h2></b>
+
+<span>
+  <p class="text2" style="color:white;">
+    Securely share files and folders with friends, family and
+</span>
+<p class="text2" style="color:white; padding-bottom: 10px;">colleagues for live collaboration.
+No email attachments</p>
+<p class="text2" style="color:white;">required.</p>
+</p>
+</div>
+
+<div class="col-lg-6">
+  <img style="padding-top: 150px; padding-left: 200px;" src="images/icon-any-file.svg">
+  <h2 style="color:white; font-family: 'Raleway', sans-serif; padding-top: 10px; text-align: center;"><b>Store any type of file</h2></b>
+
+  <span>
+    <p class="text2" style="color:white;">
+      Whether you're sharing holidays photos or work
+  </span>
+  <p class="text2" style="color:white; padding-bottom: 10px;">documents, Fylo has you covered allowing for all
+  file</p>
+  <p class="text2" style="color:white;">types to be securely stored and shared.</p>
+  </p>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+
+
+      <img class="img-fluid"  style="padding-top: 100px; " src="images/illustration-stay-productive.png">
+
+</div>
+
+<div class="col-lg-6">
+
+
+
+<h1 style="padding-top: 150px; font-family: 'Raleway', sans-serif; "><b>Stay productive, wherever you are</b></h1>
+
+<p style="color:white; padding:30px;">
+Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+storage needs.
+</p>
+<p style="color:white; padding-left:30px";>
+Securely share files and folders with friends, family and colleagues for live collaboration. No email
+attachments required.
+</p>
+
+<p style="color:#81D9D4; padding-left: 30px; border-bottom: 1px solid #81D9D4; width: 200px;">
+See how Fylo works <img src="/images/icon-arrow.svg">
+</p>
+
+
+
+</div>
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 mb-4">
+
+     
+<img style="padding-top:270px;" src="images/bg-quotes.png">
+      <div style="filter:drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.7));" class="cytat mr-5">
+<p class="cytatmobile" style="color:white; padding: 30px; font-family: 'Open Sans', sans-serif;">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+become a well-oiled collaboration machine.</p>
+<p>
+  <img class="profile1"style="border-radius:50%; " src="images/profile-1.jpg">
+</p> 
+
+
+
+      </div>
+
+
+</div>
+
+<div class="col-lg-4 mb-4  ">
+
+      <img class="none" style="padding-top:270px;" src="images/bg-quotes.png">
+      
+      <div style="filter:drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.7));" class ="cytat2 ml-4 ">
+        <p class="cytatmobile" style="color:white; padding: 30px; font-family: 'Open Sans', sans-serif;">Fylo has improved our
+          team productivity by an order of magnitude. Since making the switch our team has
+          become a well-oiled collaboration machine.</p>
+        <p>
+          <img class="profile2" style="border-radius:50%; " src="images/profile-2.jpg">
+        </p>
+      
+       
+
+
+
+
+</div></div>
+<div class="col-lg-4 col-md-4 mb-4">
+
+
+
+<img class="none" style="padding-top:270px;" src="images/bg-quotes.png">
+
+<div style="filter:drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.7));"  class="cytat2  ml-5 ">
+  <p class="cytatmobile" style="color:white; padding: 30px; font-family: 'Open Sans', sans-serif;">Fylo has improved our
+    team productivity by an order of magnitude. Since making the switch our team has
+    become a well-oiled collaboration machine.</p>
+  <p>
+    <img class="profile2" style="border-radius:50%; " src="images/profile-3.jpg">
+  </p>
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  
+
+<div style="background-color:hsl(217, 28%, 15%); margin-top: 200px; border-radius:10px; filter:drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.7));" class="jumbotron ml-5 ">
+  <h1 class="display-4">Get early access today</h1>
+  <p class="lead text-white text-center">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+  questions, our support team would be happy to help you.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    form>
+    <div style="margin-bottom:200px;" class="form-inline ">
+      <label style="width: 200px;" for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control-lg col-lg-6 " id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="email@example.com">
+    <a class="btn btn-primary btn-lg ml-auto" href="#" role="button">Get Started For Free</a>
+  </p>
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+
+  <div class="row">
+    <div class="col-lg-2">
+  <img  style="margin-top:80px;" src="images/logo.svg">
+<p>
+<img style="margin-top:50px;" src="images/icon-location.svg">
+<span style="color:white;" class="ml-5"> <span style="visibility:hidden;">dolor sit amet</span> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua</span>
+
+</p>
+
+
+ </div>
+
+ <div class="col-lg-2">
+   
+
+<img style="margin-top: 160px; margin-left: 175px;"  src="images/icon-phone.svg">
+
+ </div>
+ <div class="col-lg-2">
+<p style="color:white; margin-top: 158px; margin-left: 14px;">+1-543-123-4567</p>
+
+  <img class="row "  src="images/icon-email.svg">
+</p>
+ </div>
+<div class="col-lg-2">
+  <p style="color:white; margin-top: 194px; margin-right:300px;">example@fylo.com</p>
+</div>
+  
+
+
+</section>
+
+<section class="second">
+
+
+</section>
+<section class="third">
+  
+ 
+
+</section>
+
+<section class="fourth">
+
+
+</section>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+   
+
+  
+
+   
+
+
+
+ 
+
+  
+
+  
+
+  
+
+<!------
+
+  Satish Patel
+  Founder & CEO, Huddle
+
+  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.
+
+  Bruce McKenzie
+  Founder & CEO, Huddle
+
+  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.
+
+  Iva Boyd
+  Founder & CEO, Huddle
+
+  
+
+  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+  questions, our support team would be happy to help you.
+
+  Get Started For Free
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+  dolore magna aliqua
+
+  +1-543-123-4567
+  example@fylo.com
+
+  About Us
+  Jobs
+  Press
+  Blog
+
+  Contact Us
+  Terms
+  Privacy
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  ---->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+      </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
